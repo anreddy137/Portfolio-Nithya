@@ -9,14 +9,14 @@ const Hero = () => {
           <div className="relative box-border caret-transparent gap-x-10 flex flex-col max-w-6xl gap-y-10 text-center w-full mx-auto md:max-w-screen-xl md:text-left">
             <div className=" items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 text-center md:gap-x-10 md:flex-row md:justify-start md:gap-y-10 md:text-left">
               <a
-                href="https://github.com/NotHarshhaa"
+                href="http://linkedin.com/in/nithyasri-aleti"
                 className=" box-border caret-transparent block shrink-0 text-center rounded-full md:text-left  image"
               >
                 <div className="relative box-border caret-transparent text-center md:text-left">
                   <span className="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent flex shrink-0 h-40 text-center w-40 z-10 overflow-hidden rounded-full border-4 border-solid border-black/50 md:h-48 md:text-left md:w-48">
                     <img
-                      alt="Harshhaa"
-                      src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/avatar.png"
+                      alt="Nithya"
+                      src="/myphoto1.jpeg"
                       className="aspect-square box-border caret-transparent h-full max-w-full object-cover text-center w-full md:text-left"
                     />
                   </span>

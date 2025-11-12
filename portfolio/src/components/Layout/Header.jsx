@@ -19,12 +19,11 @@ const Header = () => {
               <div className="box-border caret-transparent">
                 <img
                   alt="Logo"
-                  src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/logo.svg"
-                  className="rotateicon text-transparent aspect-[auto_36_/_36] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border max-w-full w-9 rounded-xl"
+                  src="/fav.png"
+                  className="shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border max-w-full w-9 rounded-xl"
                 />
               </div>
-                              <h1 className=" font-bold tracking-tight leading-snug break-words font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm text-xl">NITHYAA</h1>
-
+                
             </Link>
             <nav className=" items-center box-border caret-transparent gap-x-2 hidden min-h-0 min-w-0 gap-y-2 md:flex md:min-h-[auto] md:min-w-[auto]">
               <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
@@ -55,33 +54,16 @@ const Header = () => {
                   )}
                 </Link>
               </div>
+              
               <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-                <Link
-                  to="/blog"
-                  aria-label="blog"
-                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-neutral-900 ${
-                    location.pathname === '/blog' ? 'text-white' : ''
-                  }`}
+                <a
+                href="https://github.com/anreddy137/AWSProjects"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="projects"
+                className="relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-white text-white"
                 >
-                  Blog
-                  {location.pathname === '/blog' && (
-                    <span className="absolute bg-white box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
-                  )}
-                </Link>
-              </div>
-              <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-                <Link
-                  aria-label="projects"
-                  to="/projects"
-                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-white ${
-                    location.pathname === '/projects' ? 'text-white' : ''
-                  }`}
-                >
-                  Projects
-                  {location.pathname === '/projects' && (
-                    <span className="absolute bg-white box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
-                  )}
-                </Link>
+                Projects</a>
               </div>
               <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
                 <Link
